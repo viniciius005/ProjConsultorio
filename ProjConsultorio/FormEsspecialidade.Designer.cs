@@ -75,10 +75,11 @@
             // GridEspecialidade
             // 
             this.GridEspecialidade.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.GridEspecialidade.Location = new System.Drawing.Point(12, 102);
+            this.GridEspecialidade.Location = new System.Drawing.Point(9, 102);
             this.GridEspecialidade.Name = "GridEspecialidade";
-            this.GridEspecialidade.Size = new System.Drawing.Size(240, 150);
+            this.GridEspecialidade.Size = new System.Drawing.Size(251, 150);
             this.GridEspecialidade.TabIndex = 4;
+            this.GridEspecialidade.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GridEspecialidade_CellClick);
             // 
             // btnExcluir
             // 
@@ -88,6 +89,7 @@
             this.btnExcluir.TabIndex = 3;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // btnAlterar
             // 
@@ -97,6 +99,7 @@
             this.btnAlterar.TabIndex = 2;
             this.btnAlterar.Text = "Alterar";
             this.btnAlterar.UseVisualStyleBackColor = true;
+            this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
             // 
             // btnadicionar
             // 
@@ -106,6 +109,7 @@
             this.btnadicionar.TabIndex = 1;
             this.btnadicionar.Text = "Adicionar";
             this.btnadicionar.UseVisualStyleBackColor = true;
+            this.btnadicionar.Click += new System.EventHandler(this.btnadicionar_Click);
             // 
             // FormEsspecialidade
             // 

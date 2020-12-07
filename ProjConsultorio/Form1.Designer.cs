@@ -36,8 +36,11 @@
             this.btnMedico = new System.Windows.Forms.ToolStripMenuItem();
             this.btnEspecialidade = new System.Windows.Forms.ToolStripMenuItem();
             this.btnConsulta = new System.Windows.Forms.ToolStripMenuItem();
+            this.manutençãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.usuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnSair = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.___MigrationHistoryTableAdapter1 = new ProjConsultorio.DbConsultorioDataSet9TableAdapters.@__MigrationHistoryTableAdapter();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -56,7 +59,8 @@
             // btnSistema
             // 
             this.btnSistema.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cadastrosToolStripMenuItem});
+            this.cadastrosToolStripMenuItem,
+            this.manutençãoToolStripMenuItem});
             this.btnSistema.Image = ((System.Drawing.Image)(resources.GetObject("btnSistema.Image")));
             this.btnSistema.Name = "btnSistema";
             this.btnSistema.Size = new System.Drawing.Size(76, 20);
@@ -78,7 +82,7 @@
             // 
             this.btnPaciente.Image = ((System.Drawing.Image)(resources.GetObject("btnPaciente.Image")));
             this.btnPaciente.Name = "btnPaciente";
-            this.btnPaciente.Size = new System.Drawing.Size(180, 22);
+            this.btnPaciente.Size = new System.Drawing.Size(145, 22);
             this.btnPaciente.Text = "Paciente";
             this.btnPaciente.Click += new System.EventHandler(this.btnPaciente_Click);
             // 
@@ -86,7 +90,7 @@
             // 
             this.btnMedico.Image = ((System.Drawing.Image)(resources.GetObject("btnMedico.Image")));
             this.btnMedico.Name = "btnMedico";
-            this.btnMedico.Size = new System.Drawing.Size(180, 22);
+            this.btnMedico.Size = new System.Drawing.Size(145, 22);
             this.btnMedico.Text = "Medico";
             this.btnMedico.Click += new System.EventHandler(this.btnMedico_Click);
             // 
@@ -94,7 +98,7 @@
             // 
             this.btnEspecialidade.Image = ((System.Drawing.Image)(resources.GetObject("btnEspecialidade.Image")));
             this.btnEspecialidade.Name = "btnEspecialidade";
-            this.btnEspecialidade.Size = new System.Drawing.Size(180, 22);
+            this.btnEspecialidade.Size = new System.Drawing.Size(145, 22);
             this.btnEspecialidade.Text = "Especialidade";
             this.btnEspecialidade.Click += new System.EventHandler(this.btnEspecialidade_Click);
             // 
@@ -102,9 +106,26 @@
             // 
             this.btnConsulta.Image = ((System.Drawing.Image)(resources.GetObject("btnConsulta.Image")));
             this.btnConsulta.Name = "btnConsulta";
-            this.btnConsulta.Size = new System.Drawing.Size(180, 22);
+            this.btnConsulta.Size = new System.Drawing.Size(145, 22);
             this.btnConsulta.Text = "Consulta";
             this.btnConsulta.Click += new System.EventHandler(this.btnConsulta_Click);
+            // 
+            // manutençãoToolStripMenuItem
+            // 
+            this.manutençãoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.usuariosToolStripMenuItem});
+            this.manutençãoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("manutençãoToolStripMenuItem.Image")));
+            this.manutençãoToolStripMenuItem.Name = "manutençãoToolStripMenuItem";
+            this.manutençãoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.manutençãoToolStripMenuItem.Text = "Manutenção";
+            // 
+            // usuariosToolStripMenuItem
+            // 
+            this.usuariosToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("usuariosToolStripMenuItem.Image")));
+            this.usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
+            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.usuariosToolStripMenuItem.Text = "Usuarios";
+            this.usuariosToolStripMenuItem.Click += new System.EventHandler(this.usuariosToolStripMenuItem_Click);
             // 
             // btnSair
             // 
@@ -122,6 +143,10 @@
             this.pictureBox1.Size = new System.Drawing.Size(643, 426);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
+            // 
+            // ___MigrationHistoryTableAdapter1
+            // 
+            this.___MigrationHistoryTableAdapter1.ClearBeforeFill = true;
             // 
             // FormPrincipal
             // 
@@ -156,6 +181,9 @@
         private System.Windows.Forms.ToolStripMenuItem btnConsulta;
         private System.Windows.Forms.ToolStripMenuItem btnSair;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ToolStripMenuItem manutençãoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem usuariosToolStripMenuItem;
+        private DbConsultorioDataSet9TableAdapters.__MigrationHistoryTableAdapter ___MigrationHistoryTableAdapter1;
     }
 }
 

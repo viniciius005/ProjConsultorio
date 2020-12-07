@@ -17,5 +17,7 @@ namespace ProjConsultorio
         public DbSet<Medico> ObjetoMedico { get; set; }
         public DbSet<Especialidad> ObjetoEspecilidade { get; set; }
         public DbSet<Consulta> ObjetoConsulta { get; set; }
+        public DbSet<ManutUser> ObjetoManutUser  { get; set; }
+
     }
 }
